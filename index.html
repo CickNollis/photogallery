@@ -2,69 +2,86 @@
 <html lang=”en”>
 <head>
 	<meta charset=”utf-8”>
-
+  <meta name="author" content="Nick Collis">
+  <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
- TK Photography
-About
-Gallery
-Contact
-^ top
-About
-TK.png
-<section>
-Hello! 
-I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world. 
-Gallery
-Here are some highlights of my work. 
-The locations and year are in the caption. 
+  <h1>TK Photography</h1>
+  <nav>
+      <ul>
+      <li><a href="about.html">About</a>       </li>
+      <li><a href="Gallery.html">Gallery</a>         </li>
+      <li><a href="Contact.html">Contact</a></li>
+      </ul>
+  </nav>
+  <nav><a href="#top" class="top">top
+    </a></nav>
+	<section>
+    <h2>About</h2>
+    <img src="TK.png"	alt="tk photo" class="tk">
+
+
+<p>Hello! I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world.</p>
 </section>
+<section>
+  <h3>Gallery</h3>
+<p>Here are some highlights of my work. 
+  The locations and year are in the caption.</p> 
 
-Chile.png
-Chile, 2001
 
-Guatemala.png
-Guatemala, 1997
+<img src="Chile.png" alt="Chile, 2001" class="ch">
 
-Hawaii.png
-Hawaii, 2010
+<img src="Guatemala.png"
+alt="Guatemala, 1997" class="gu">
 
-Iran.png
-Iran, 1999
+<img src="Hawaii.png"
+alt="Hawaii, 2010" class="hi">
 
-Ireland.png
-Ireland, 2012
+<img src="Iran.png"
+alt="Iran, 1999" class="ir">
 
-Italy.png
-Italy, 2015
+<img src="Ireland.png"
+alt="Ireland, 2012" class="ire">
 
-Moab-Desert.png
-Moab Desert, 2020
+<img src="Italy.png"
+alt="Italy, 2015" class="it">
 
-Rocky-Mountains.png
-Rocky Mountains, 2009
+<img src="Moab-Desert.png"
+alt="Moab Desert, 2020" class="mo">
 
-Switzerland.png
-Switzerland, 2014
+<img src="Rocky-Mountains.png"
+alt="Rocky Mountains, 2009" class="rm">
 
-UK.png
-UK, 2005
+<img src="Switzerland.png"
+alt="Switzerland, 2014" class="sw">
 
-USA.png
-USA, 2021
+<img src="UK.png"
+alt="UK, 2005" class="uk">
 
-Wyoming.png
-Wyoming, 2021
-Contact
-Please fill out this form and I’ll connect with you soon.
+<img src="USA.png"
+alt="USA, 2021" class="us">
 
+<img src="Wyoming.png"
+alt="Wyoming, 2021" class="wy">
+  
+
+</section>
+<h3>Contact</h3>
+<P>Please fill out this form and I’ll connect with you soon.</P>
+<form  id="contact" method="post">
 Your contact information
-Name (Your full name)
-Email (Enter your email address)
-Message (What can I help you with?)
-Submit
+<label for="myName">Name</label> 
+<input type="text" name="myName" id="myName" required placeholder="(Your full name)">
 
-Copyright 2021 TK Photography
+<label for="myEmail">Email</label>
+<input type="text" name="myEmail" id="myEmail" required placeholder="(Enter your email address)">
+
+<label for="myMessage"> Message</label> 
+<input type="text" name="myMessage" id="myMessage" required placeholder="(What can I help you with?)">
+
+<input type="submit" name="mySubmit" id="mySubmit" value="Submit">
+</form>
+<small>Copyright 2021 TK Photography</small>
 
 </body>
