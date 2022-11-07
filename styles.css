@@ -45,33 +45,31 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+
 body {
     background-color: black;
     font-family: arial;
 }
 
+
+
 section {
     background-color: white;
     width: 1310px;
     margin: auto;
-
 }
 
-header {
-    align: center;
-}
 
 
 h1 {
     font-size: 40px;
     color: #007D7B;
-    left: 0;
-    top: 0;
+    padding: 40px;
 }
 
 
 main {
-    background-color: #whitesmoke;
     size: 40px;
 }
 
@@ -79,17 +77,102 @@ li :hover {
     color: #007D7B;
 }
 
-nav #top {
+nav .top {
     position: fixed;
     bottom: 0;
     right: 0;
     background-color: #007D7B;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 nav a {
     text-decoration: none;
     color: white;
-    display: inline;
-    float: right;
-    text-align: center;
 }
+
+figcaption{
+    font-size: 16px;
+    color: white;
+    float: left;
+    position: absolute;
+
+}
+
+.topleft {
+    color: black;
+
+}
+
+.bottomright {
+    color: white;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.bottomleft{
+    color: white;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+figure  {
+    display: inline-flex;
+    align-content: center;
+    position: relative;
+}
+
+
+
+h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align-last: right;
+
+}
+
+.p1 {
+    text-align: right; 
+    font-size: 20px;   
+}
+
+
+
+h3 {
+    font-size: 40px;
+    color: black;
+    clear: both;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#contact {
+    color: white;
+    text-align: left;
+    position: absolute;
+}
+
+.tk {
+    float: left;
+}
+
+.form {
+    background-color: black;
+    color: white;
+}
+
+input {
+    width: 850px;
+    color: #007D7B;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    margin: 7px auto;
+    padding:  5px;
+    
+}
+
+
