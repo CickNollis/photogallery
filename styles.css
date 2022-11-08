@@ -72,9 +72,6 @@ h1 {
 }
 
 
-main {
-    size: 40px;
-}
 
 li :hover {
     color: #007D7B;
@@ -90,10 +87,6 @@ nav .top {
     text-align: center;
     z-index: 1;
 
-}
-
-.top :hover {
-    background-color: white;
 }
 
 nav {
